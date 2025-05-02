@@ -1,0 +1,31 @@
+# Dependências
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de uploads (exceto o .gitkeep)
+uploads/*
+!uploads/pets/
+uploads/pets/*
+!uploads/pets/.gitkeep
+
+# Logs
+logs
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretório de cobertura de testes
+coverage/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
